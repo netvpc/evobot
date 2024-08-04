@@ -2,7 +2,7 @@ services:
   evobot:
     container_name: evobot
     restart: unless-stopped
-    image: netvpc/evobot:latest
+    image: ghcr.io/netvpc/evobot
     networks:
       - internal
     environment:
