@@ -3,7 +3,7 @@
 set -e
 
 # Export default values for environment variables if they are not set
-export EVOBOT_MAX_PLAYLIST_SIZE=${EVOBOT_MAX_PLAYLIST_SIZE:-10}
+export EVOBOT_MAX_PLAYLIST_SIZE=${EVOBOT_MAX_PLAYLIST_SIZE:-100}
 export EVOBOT_PRUNING=${EVOBOT_PRUNING:-false}
 export EVOBOT_LOCALE=${EVOBOT_LOCALE:-ko}
 export EVOBOT_STAY_TIME=${EVOBOT_STAY_TIME:-30}
